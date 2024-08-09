@@ -1,0 +1,11 @@
+prefix=/Users/yaseenshaikh/Desktop/ML/ML PROJECTS/completed projects /venv
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/Users/yaseenshaikh/Desktop/ML/ML PROJECTS/completed projects /venv/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.4.4
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}
